@@ -42,6 +42,6 @@ void loop(){
   rd = Serial.read();
 	if (rd == 'f') front;
 	if (rd == 'b') back;
-  if (rd == 'r') right;
+  	if (rd == 'r') right;
  	if (rd == 'l') left;
 }
