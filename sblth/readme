@@ -1,0 +1,1 @@
+This project aims to deploy an Arduino code that reads a serial command from the HC-06 module and drives motors through a bridge H.
