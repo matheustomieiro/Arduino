@@ -1,4 +1,3 @@
-#include <SoftwareSerial.h>
 #define a 8
 #define b 9
 #define c 10
@@ -29,9 +28,6 @@ digitalWrite(b,LOW);
 digitalWrite(c,HIGH);
 digitalWrite(d,HIGH);
 }
-
-
-SoftwareSerial bluetooth(2,3);
 
 void setup(){
 	pinMode(a,OUTPUT);
